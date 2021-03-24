@@ -17,7 +17,7 @@ X_train_classifier, y_train_classifier, X_val_classifier, y_val_classifier, X_te
 classifier = classifier_model()
 classifier.summary()
 
-"""Specifying Callbacks and Training Model"""
+"""Specifying Callbacks and Training the Model"""
 
 callbacks = [
     keras.callbacks.ModelCheckpoint('classifier.h5', save_best_only=True),
