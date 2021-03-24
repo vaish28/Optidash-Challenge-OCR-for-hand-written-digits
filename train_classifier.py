@@ -98,8 +98,8 @@ print(classification_report(y_true,y_predicted))
 """Training Evaluation"""
 
 # summarize history for accuracy
-plt.plot(history.history['accuracy'][0:100])
-plt.plot(history.history['val_accuracy'][0:100])
+plt.plot(history.history['acc'][0:100])
+plt.plot(history.history['val_acc'][0:100])
 plt.title('model accuracy')
 plt.ylabel('accuracy')
 plt.xlabel('epoch')
