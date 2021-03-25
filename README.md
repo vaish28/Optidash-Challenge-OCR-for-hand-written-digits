@@ -14,19 +14,19 @@ Framework used and Dependencies
 
 The pipeline consist of a Dataset acquisition and preprocessing which is coded in "training_data.py". After that "build_model.py" is used for the defining and compiling the classifier model. The sample of the datset image and the label associated to it.
 
-Image_0
+![](disp_images/Image_0.PNG)
 
 The main program for the execution is "train_classifier.py" or "train_classifier.ipynb" (you need to upload the dependent python files in the colab workspace for working with .ipynb). This program will generate and train the classification model which will be saved as classifier.h5. There is also a last part to the train_classifier which is giving the overview of the whole training process.
 
 The summary of the model built can be seen below:
 
-Image_1
+![](disp_images/Image_1.PNG)
 
 The learning curves obtained from the training on the dataset can be seen below.
 
-Image_2
+![](disp_images/Image_2.PNG)
 
-Image_3
+![](disp_images/Image_3.PNG)
 
 The observations during the training process are:
 
@@ -52,14 +52,14 @@ Validation Loss     - 0.0273
 
 Now, for testing the trained Classifier we will be using the "test_classifier.py" or "test_classifier.ipynb" In this code the confusion matrix and the classification report were obtained for the trained model on the test dataset. The test dataset was also pre_processed. The following are the screenshots of these observations.
 
-Image_4
+![](disp_images/Image_4.PNG)
 
-Image_5
+![](disp_images/Image_5.PNG)
 
 And following is the visual representation of of the Test dataset that is classified and It's original label and presicted lable.
 
-Image_6
+![](disp_images/Image_6.PNG)
 
-Image_7
+![](disp_images/Image_7.PNG)
 
-Image_8
+![](disp_images/Image_8.PNG)
