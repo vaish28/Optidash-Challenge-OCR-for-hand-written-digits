@@ -25,6 +25,7 @@ Image_1
 The learning curves obtained from the training on the dataset can be seen below.
 
 Image_2
+
 Image_3
 
 The observations during the training process are:
@@ -32,24 +33,33 @@ The observations during the training process are:
 The highest valued results during the training were obtained at Epoch 88 with following specifications:
 
 Training accuracy   - 0.9982 
+
 Validation accuracy - 0.9938
+
 Training Loss       - 0.0058
+
 Validation Loss     - 0.0215
 
 According to the theory and observation from the Learning rate graphs, we can comment that the optimum and satisfactory results for the model that we obtained somewhere between 15-20 epochs. We take the results that we obtained at epoch 18 which are:
 
 Training accuracy   - 0.9949 
+
 Validation accuracy - 0.9938
+
 Training Loss       - 0.0163
+
 Validation Loss     - 0.0273
 
 Now, for testing the trained Classifier we will be using the "test_classifier.py" or "test_classifier.ipynb" In this code the confusion matrix and the classification report were obtained for the trained model on the test dataset. The test dataset was also pre_processed. The following are the screenshots of these observations.
 
 Image_4
+
 Image_5
 
 And following is the visual representation of of the Test dataset that is classified and It's original label and presicted lable.
 
 Image_6
+
 Image_7
+
 Image_8
