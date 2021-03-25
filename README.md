@@ -56,10 +56,12 @@ Now, for testing the trained Classifier we will be using the "test_classifier.py
 
 ![](disp_images/Image_5.PNG)
 
-And following is the visual representation of of the Test dataset that is classified and It's original label and presicted lable.
+And following is the visual representation of of the Test dataset that is classified and It's original label and predicted lable.
 
 ![](disp_images/Image_6.PNG)
 
 ![](disp_images/Image_7.PNG)
 
 ![](disp_images/Image_8.PNG)
+
+"Note: More cleaning and explanation of the code with upgradation of the README.md is remaining if required"
