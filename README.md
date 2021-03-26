@@ -6,6 +6,10 @@
 
 The presented code is a simple implementation of Convolutional Neural Network (CNN) for training a MNIST digit classifier.
 
+CNN extracts the features of image and converts it into lower dimension without loosing its characteristics. 
+The convolution layer and the pooling layer can be fine-tuned with respect to hyperparameters.
+
+
 Framework used and Dependencies
 - Tensorflow - Keras
 - Numpy
