@@ -41,7 +41,7 @@ The learning curves obtained from the training on the dataset can be seen below.
 
 The observations during the training process are:
 
-The highest valued results during the training were obtained at Epoch 3 as I cancelled traing my model after it's reached 98% accuracy with following specifications:
+The highest valued results during the training were obtained at Epoch 3 as I cancelled training my model after it's reached 98% accuracy with following specifications:
 
 Training accuracy   - 0.9824 
 
