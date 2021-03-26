@@ -35,9 +35,9 @@ The summary of the model built can be seen below:
 
 The learning curves obtained from the training on the dataset can be seen below.
 
-![](disp_images/Image_2.PNG)
+![accuracy](https://user-images.githubusercontent.com/57597700/112594890-989d8800-8e2f-11eb-9184-9be0da545d80.jpg)
 
-![](disp_images/Image_3.PNG)
+![Loss](https://user-images.githubusercontent.com/57597700/112594683-4d837500-8e2f-11eb-9d9e-b9e0d1fbd5c4.jpg)
 
 The observations during the training process are:
 
