@@ -41,31 +41,26 @@ The learning curves obtained from the training on the dataset can be seen below.
 
 The observations during the training process are:
 
-The highest valued results during the training were obtained at Epoch 88 with following specifications:
+The highest valued results during the training were obtained at Epoch 3 as I cancelled traing my model after it's reached 98% accuracy with following specifications:
 
-Training accuracy   - 0.9982 
+Training accuracy   - 0.9824 
 
-Validation accuracy - 0.9938
+Validation accuracy - 0.9903
 
-Training Loss       - 0.0058
+Training Loss       - 0.0572
 
-Validation Loss     - 0.0215
+Validation Loss     - 0.0303
 
-According to the theory and observation from the Learning rate graphs, we can comment that the optimum and satisfactory results for the model that we obtained somewhere between 15-20 epochs. We take the results that we obtained at epoch 18 which are:
+According to the theory and observation from the Learning rate graphs, we can comment that the optimum and satisfactory results for the model had been obtained. 
+"NOTE:- Accuracy will reach more than 99.5% on futher epochs. In order to save time and resources we stopped training our model after it has reached 98% accuracy."
 
-Training accuracy   - 0.9949 
-
-Validation accuracy - 0.9938
-
-Training Loss       - 0.0163
-
-Validation Loss     - 0.0273
 
 Now, for testing the trained Classifier we will be using the "test_classifier.py" or "test_classifier.ipynb" In this code the confusion matrix and the classification report were obtained for the trained model on the test dataset. The test dataset was also pre_processed. The following are the screenshots of these observations.
 
-![](disp_images/Image_4.PNG)
+![confusion](https://user-images.githubusercontent.com/57597700/112595971-2b8af200-8e31-11eb-824d-2229b6cb76f9.jpg)
 
-![](disp_images/Image_5.PNG)
+![report](https://user-images.githubusercontent.com/57597700/112596003-33e32d00-8e31-11eb-8612-1212d1c4143d.jpg)
+
 
 And following is the visual representation of of the Test dataset that is classified and It's original label and predicted lable.
 
