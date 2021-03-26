@@ -9,6 +9,13 @@ The presented code is a simple implementation of Convolutional Neural Network (C
 CNN extracts the features of image and converts it into lower dimension without loosing its characteristics. 
 The convolution layer and the pooling layer can be fine-tuned with respect to hyperparameters.
 
+Input Layer - Input Layer in CNN should contain image data.Image data is represented by three dimensional matrix and needs reshaping into single column.
+
+Convo Layer - Convo layer is sometimes called feature extractor layer because features of the image are get extracted within this layer. Result of the operation is single integer of the output volume. Convo layer also contains ReLU activation to make all negative value to zero.
+
+Pooling Layer - Pooling layer is used to reduce the spatial volume of input image after convolution. It is used between two convolution layer. 
+
+![](disp_images/Image_9.PNG)
 
 Framework used and Dependencies
 - Tensorflow - Keras
