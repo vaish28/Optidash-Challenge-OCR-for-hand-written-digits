@@ -19,12 +19,16 @@ classifier.summary()
 
 """Specifying Callbacks and Training the Model"""
 
-callbacks = [
-    keras.callbacks.ModelCheckpoint('classifier.h5', save_best_only=True),
-    keras.callbacks.ReduceLROnPlateau()]
+class myCallback(tf.keras.callbacks.Callback):
+    def on_epoch_end(self, epoch, logs={}):
+        if(logs.get('accuracy')>=0.98):
+            print("Reached 98% accuracy so cancelling training!")
+            self.model.stop_training = True
 
-history = classifier.fit(X_train_classifier, y_train_classifier, batch_size=32, epochs=100, verbose=1, validation_data = (X_val_classifier, y_val_classifier), callbacks = callbacks)
+callback = myCallback()
 
+with tf.device('/GPU:0'):
+    history = classifier.fit(X_train_classifier, y_train_classifier, batch_size=32, epochs=100, verbose=1, validation_data = (X_val_classifier, y_val_classifier), callbacks = [callback])
 """Training Evaluation"""
 
 # model training performance for accuracy
@@ -42,5 +46,5 @@ plt.plot(history.history['val_loss'][0:100])
 plt.title('model loss')
 plt.ylabel('loss')
 plt.xlabel('epoch')
-plt.legend(['training_accuracy', 'validation_accuracy'], loc='upper right')
+plt.legend(['training_loss', 'validation_loss'], loc='upper right')
 plt.show()
