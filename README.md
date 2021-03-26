@@ -23,6 +23,12 @@ Framework used and Dependencies
 - Scikitlearn
 - Matplotlib
 
+Exploratory Data Analysis performed on the dataset which is coded in "Data_preprocessing_and_feature_exploration.ipynb" and found the following results:-
+1. train.csv consists of 5 rows & 785 columns.
+2. test.csv consists of 5 rows & 784 columns
+3. There is no missing values in the train and test dataset.
+4. Performed Normalisation and Label encoding.
+
 The pipeline consist of a Dataset acquisition and preprocessing which is coded in "training_data.py". After that "build_model.py" is used for the defining and compiling the classifier model. The sample of the datset image and the label associated to it.
 
 ![](disp_images/Image_0.PNG)
