@@ -41,7 +41,7 @@ The learning curves obtained from the training on the dataset can be seen below.
 
 The observations during the training process are:
 
-The highest valued results during the training were obtained at Epoch 3 as I cancelled training my model after it's reached 98% accuracy with following specifications:
+The highest valued results during the training were obtained at Epoch 3 as I cancelled training my model after it has reached 98% accuracy with following specifications:
 
 Training accuracy   - 0.9824 
 
@@ -52,6 +52,8 @@ Training Loss       - 0.0572
 Validation Loss     - 0.0303
 
 According to the theory and observation from the Learning rate graphs, we can comment that the optimum and satisfactory results for the model had been obtained. 
+
+
 "NOTE:- Accuracy will reach more than 99.5% on futher epochs. In order to save time and resources we stopped training our model after it has reached 98% accuracy."
 
 
